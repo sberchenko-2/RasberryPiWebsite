@@ -1,0 +1,15 @@
+.row_flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.column_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#output {
+    margin-top: 5px;
+    width: 50vw;
+    height: 80vh;
+}
