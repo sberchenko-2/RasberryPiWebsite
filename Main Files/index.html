@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IronReef</title>
+
+    <!-- UI Dependencies -->
+    <script src="../External Dependencies/jquery-3.5.1.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="../Media/logo.png" type="image/x-icon">
+
+    <!-- Functional Dependencies -->
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div class="column_flex">
+    <div id="logo" class="row_flex">
+        <img src="../Media/logo.png" alt="IronReef Logo" />
+        <p><em>IronReef Network Tool</em></p>
+    </div>
+
+    <div id="main" class="row_flex">
+        <div id="currDevices" class="column_flex">
+            <h2>Current Devices:</h2>
+            <table id="devicesTable">
+                <tr>
+                    <th>IP Address</th>
+                    <th>MAC</th>
+                    <th>Type</th>
+                </tr>
+            </table>
+            <button onclick="pingDevice()">Ping Selected Device</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    main();
+</script>
+
+
+</body>
+</html>

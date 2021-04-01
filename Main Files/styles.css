@@ -1,0 +1,75 @@
+.row_flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.column_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#output {
+    margin-top: 5px;
+    width: 50vw;
+    height: 80vh;
+}
+
+/*--- Logo ---*/
+
+#logo {
+    margin: 0 0 10px 0;
+    width: 43vh;
+    height: 6vh;
+    border: 1px solid black;
+}
+
+#logo img {
+    float: left;
+    height: calc(100% - 5px);
+    padding: 2px 0 2px 0;
+}
+
+#logo p {
+    color: #122142;
+    height: 4vh;
+    float: left;
+    margin: 0 0 0 20px;
+    transform: translateY(25%);
+    text-align: center;
+    vertical-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+/**-- Table --*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    padding: 5px;
+    font-size: 24pt;
+}
+
+td {
+    padding: 5px;
+}
+
+.th:focus {
+    background-color: #50c3fc;
+}
+
+.th:hover {
+    cursor: pointer;
+}
+
+#currDevices > p {
+    margin-bottom: 10px;
+}
+
+#currDevices > button {
+    margin-top: 5px;
+}
